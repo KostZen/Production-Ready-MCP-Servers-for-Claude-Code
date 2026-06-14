@@ -7,9 +7,9 @@ Awesome MCP Servers 2026
 </h1>
 
 <p align="center">
-Not another MCP directory.
+A curated collection of production-ready MCP servers tested for Claude Code, Cursor and AI coding agents.
 
-This repository focuses on the most useful, production-ready MCP servers for Claude Code, Cursor, Windsurf and AI coding agents.
+Unlike generic MCP directories, this repository focuses on practical servers developers can use today.
 </p>
 
 <p align="center">
