@@ -34,7 +34,16 @@ Model Context Protocol (MCP) is an open standard that allows AI assistants to se
 
 ## Featured MCP Servers
 
-Coming soon...
+| Server | Description |
+|----------|----------|
+| Filesystem MCP | Access local files and directories |
+| PostgreSQL MCP | Query PostgreSQL databases |
+| GitHub MCP | Repository and issue management |
+| Slack MCP | Messaging and workspace automation |
+| Google Drive MCP | File management and search |
+| Notion MCP | Knowledge base integration |
+| Web Search MCP | Internet search capabilities |
+| AWS MCP | Cloud infrastructure access |
 
 ## Contributing
 
