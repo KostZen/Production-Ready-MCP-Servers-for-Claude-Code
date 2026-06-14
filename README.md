@@ -14,9 +14,6 @@ The largest curated collection of MCP servers for Claude, Cursor and AI Agents.
 ⭐ Star this repository if it helps you.
 </p>
 
-# Awesome MCP Servers 2026
-
-A curated collection of the best MCP (Model Context Protocol) servers for Claude, Cursor, Windsurf, and AI agents.
 
 ## What is MCP?
 
