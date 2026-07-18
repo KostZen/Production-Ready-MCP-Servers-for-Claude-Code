@@ -1,199 +1,111 @@
-<p align="center">
-  <img src="assets/banner.png" alt="Awesome MCP Servers 2026">
-</p>
+<p align="center"><img src="assets/banner.png" alt="Awesome MCP Servers 2026" width="100%"></p>
 
-<h1 align="center">
-Awesome MCP Servers 2026
-</h1>
+# Awesome MCP Servers 2026
 
-<p align="center">
-A curated collection of practical MCP servers for Claude Code, Cursor, and AI coding agents.
-</p>
+A curated, link-checked collection of useful Model Context Protocol servers for Claude Code, Cursor, Windsurf and other MCP-compatible AI agents.
 
-<p align="center">
-Unlike generic MCP directories, this repository focuses on practical servers developers can use today.
-</p>
+> **Verified:** 18 July 2026. A working repository link does not guarantee that a server is safe for your environment. Review permissions, source code, release activity and authentication requirements before installation.
 
-<p align="center">
-⭐ Star this repository if it helps you.
-</p>
+## Status legend
 
-## What is MCP?
+- **Official** — maintained by the service or platform owner.
+- **Reference** — maintained by the MCP project as an educational/reference implementation.
+- **Community** — third-party project with a public source repository; evaluate it independently.
+- **Demo** — example implementation, not a production recommendation.
 
-Model Context Protocol (MCP) is an open standard that allows AI assistants to securely connect with external tools, APIs, databases, file systems, and services.
+## Start here
 
-This catalog focuses on MCP servers that are useful for developer workflows, AI coding agents, automation, research, and knowledge work.
+- [Official MCP documentation](https://modelcontextprotocol.io/)
+- [Official MCP Registry](https://registry.modelcontextprotocol.io/)
+- [MCP reference servers](https://github.com/modelcontextprotocol/servers)
+- [MCP specification](https://github.com/modelcontextprotocol/modelcontextprotocol)
 
-## Categories
+## Development tools
 
-- Development Tools
-- File Systems
-- Databases
-- Search & Research
-- Communication
-- Productivity & Automation
-- Knowledge Management
-- Cloud & Infrastructure
-- Maps & Location
-- Smart Home & IoT
-- Media
-- AI & LLM
+| MCP server | What it does | Status | Source |
+|---|---|---:|---|
+| GitHub MCP Server | Repositories, issues, pull requests, code and automation | Official | [github/github-mcp-server](https://github.com/github/github-mcp-server) |
+| Filesystem | Controlled access to selected files and directories | Reference | [modelcontextprotocol/servers](https://github.com/modelcontextprotocol/servers/tree/main/src/filesystem) |
+| Git | Read, search and manipulate Git repositories | Reference | [modelcontextprotocol/servers](https://github.com/modelcontextprotocol/servers/tree/main/src/git) |
+| Docker MCP Gateway | Run and manage MCP servers through Docker | Official | [docker/mcp-gateway](https://github.com/docker/mcp-gateway) |
+| Playwright MCP | Browser automation using Playwright | Official | [microsoft/playwright-mcp](https://github.com/microsoft/playwright-mcp) |
+| Firecrawl MCP | Search, crawl and extract web content | Official | [mendableai/firecrawl-mcp-server](https://github.com/mendableai/firecrawl-mcp-server) |
+| OpenAI Deep Research sample | Example MCP server compatible with Deep Research | Demo | [openai/sample-deep-research-mcp](https://github.com/openai/sample-deep-research-mcp) |
 
-## 🔥 Top 10 MCP Servers for Claude Code
+## Search and research
 
-| Rank | MCP Server | Best for | Status | Links |
-| --- | --- | --- | --- | --- |
-| 1 | GitHub MCP | Repositories, PRs, issues, code search, and workflow automation | Needs review | [GitHub](https://github.com/github/github-mcp-server) |
-| 2 | Filesystem MCP | Safe local file and directory access | Needs review | [GitHub](https://github.com/modelcontextprotocol/servers/tree/main/src/filesystem) |
-| 3 | PostgreSQL MCP | Database exploration, schema inspection, and SQL queries; needs active replacement | Needs review | [Archived reference](https://github.com/modelcontextprotocol/servers-archived/tree/main/src/postgres) |
-| 4 | Memory MCP | Persistent knowledge graph and session memory | Needs review | [GitHub](https://github.com/modelcontextprotocol/servers/tree/main/src/memory) |
-| 5 | Puppeteer MCP | Browser automation, screenshots, and web interaction; needs active replacement | Needs review | [Archived reference](https://github.com/modelcontextprotocol/servers-archived/tree/main/src/puppeteer) |
-| 6 | Brave Search MCP | Web search via Brave Search API | Needs review | [GitHub](https://github.com/brave/brave-search-mcp-server) |
-| 7 | Git MCP | Read, inspect, and manipulate Git repositories | Needs review | [GitHub](https://github.com/modelcontextprotocol/servers/tree/main/src/git) |
-| 8 | Slack MCP | Team communication and workspace workflows | Needs review | TODO |
-| 9 | Notion MCP | Knowledge base and documentation access | Needs review | [GitHub](https://github.com/makenotion/notion-mcp-server) |
-| 10 | Sequential Thinking MCP | Structured reasoning and step-by-step problem solving | Needs review | [GitHub](https://github.com/modelcontextprotocol/servers/tree/main/src/sequentialthinking) |
+| MCP server | What it does | Status | Source |
+|---|---|---:|---|
+| Brave Search MCP | Web and local search through Brave Search | Official | [brave/brave-search-mcp-server](https://github.com/brave/brave-search-mcp-server) |
+| Kagi MCP | Kagi Search and related tools | Official | [kagisearch/kagimcp](https://github.com/kagisearch/kagimcp) |
+| Jina AI MCP | Search, reading and fact-checking tools | Official | [jina-ai/MCP](https://github.com/jina-ai/MCP) |
+| Tavily MCP | Search, extract, map and crawl | Official | [tavily-ai/tavily-mcp](https://github.com/tavily-ai/tavily-mcp) |
+| SearXNG MCP | Private metasearch through a SearXNG instance | Community | [ihor-sokoliuk/mcp-searxng](https://github.com/ihor-sokoliuk/mcp-searxng) |
+| Fetch | Fetch and convert web content for model use | Reference | [modelcontextprotocol/servers](https://github.com/modelcontextprotocol/servers/tree/main/src/fetch) |
 
----
+## Databases and data platforms
 
-## 💻 Development Tools
+| MCP server | What it does | Status | Source |
+|---|---|---:|---|
+| MongoDB MCP | MongoDB databases and Atlas clusters | Official | [mongodb-js/mongodb-mcp-server](https://github.com/mongodb-js/mongodb-mcp-server) |
+| Redis MCP | Manage and search Redis data | Official | [redis/mcp-redis](https://github.com/redis/mcp-redis) |
+| Supabase MCP | Connect AI assistants to Supabase projects | Official/community org | [supabase-community/supabase-mcp](https://github.com/supabase-community/supabase-mcp) |
+| Pinecone MCP | Work with Pinecone vector databases | Official | [pinecone-io/pinecone-mcp](https://github.com/pinecone-io/pinecone-mcp) |
+| Neo4j MCP | Neo4j graph database tooling | Labs | [neo4j-contrib/mcp-neo4j](https://github.com/neo4j-contrib/mcp-neo4j) |
 
-| MCP Server | Description | Status | Links |
-| --- | --- | --- | --- |
-| GitHub MCP | Full GitHub integration for repos, issues, PRs, code, and automation | Needs review | [GitHub](https://github.com/github/github-mcp-server) |
-| Git MCP | Read and manipulate Git repositories | Needs review | [GitHub](https://github.com/modelcontextprotocol/servers/tree/main/src/git) |
-| GitLab MCP | GitLab repositories and CI/CD workflows | Needs review | TODO |
-| Docker MCP | Container management | Needs review | TODO |
-| Terminal MCP | Command execution workflows | Needs review | TODO |
-| Maven MCP Server | Maven dependency management | Needs review | TODO |
-| godoc-mcp | Access Go documentation | Needs review | TODO |
-| e2b-mcp-server | Secure code execution environments | Needs review | TODO |
+## Knowledge, memory and collaboration
 
-## 📁 File Systems
+| MCP server | What it does | Status | Source |
+|---|---|---:|---|
+| Notion MCP | Access and update Notion workspaces | Official | [makenotion/notion-mcp-server](https://github.com/makenotion/notion-mcp-server) |
+| Slack MCP plugin | Slack MCP server plus developer skills | Official | [slackapi/slack-skills-plugin](https://github.com/slackapi/slack-skills-plugin) |
+| Memory | Persistent knowledge graph memory | Reference | [modelcontextprotocol/servers](https://github.com/modelcontextprotocol/servers/tree/main/src/memory) |
+| Sequential Thinking | Structured, dynamic reasoning workflow | Reference | [modelcontextprotocol/servers](https://github.com/modelcontextprotocol/servers/tree/main/src/sequentialthinking) |
+| Time | Time and timezone conversion | Reference | [modelcontextprotocol/servers](https://github.com/modelcontextprotocol/servers/tree/main/src/time) |
 
-| MCP Server | Description | Status | Links |
-| --- | --- | --- | --- |
-| Filesystem MCP | File operations and directory access | Needs review | [GitHub](https://github.com/modelcontextprotocol/servers/tree/main/src/filesystem) |
+## Cloud and infrastructure
 
-## 🗄 Databases
+| MCP server | What it does | Status | Source |
+|---|---|---:|---|
+| AWS MCP servers | Collection of MCP servers for AWS services | Official | [awslabs/mcp](https://github.com/awslabs/mcp) |
+| Cloudflare MCP servers | Cloudflare account, developer and observability tools | Official | [cloudflare/mcp-server-cloudflare](https://github.com/cloudflare/mcp-server-cloudflare) |
+| Cloudflare API MCP | Token-efficient access to the Cloudflare API | Official | [cloudflare/mcp](https://github.com/cloudflare/mcp) |
+| Cloud Run MCP | Deploy applications to Google Cloud Run | Official | [GoogleCloudPlatform/cloud-run-mcp](https://github.com/GoogleCloudPlatform/cloud-run-mcp) |
+| Grafana MCP | Query dashboards, metrics, logs and incidents | Official | [Grafana/mcp-grafana](https://github.com/Grafana/mcp-grafana) |
 
-| MCP Server | Description | Status | Links |
-| --- | --- | --- | --- |
-| PostgreSQL MCP | PostgreSQL queries and schema inspection; needs active replacement | Needs review | [Archived reference](https://github.com/modelcontextprotocol/servers-archived/tree/main/src/postgres) |
-| MySQL MCP Server | MySQL database access | Needs review | TODO |
-| DuckDB MCP | Local analytical database access | Needs review | TODO |
-| BigQuery MCP | Google BigQuery integration | Needs review | TODO |
-| Supabase MCP | Supabase project management | Needs review | TODO |
-| Pinecone MCP | Vector database integration | Needs review | TODO |
+## Security checklist
 
-## 🌐 Search & Research
+Before enabling any MCP server:
 
-| MCP Server | Description | Status | Links |
-| --- | --- | --- | --- |
-| Brave Search MCP | Web and local search using Brave Search API | Needs review | [GitHub](https://github.com/brave/brave-search-mcp-server) |
-| Kagi MCP | Kagi search integration | Needs review | TODO |
-| Jina AI MCP | Search, reading, and fact-checking | Needs review | TODO |
-| searXNG MCP | Open-source search engine access | Needs review | TODO |
-| Web Browser MCP | Browser-based web exploration | Needs review | TODO |
-| Firecrawl MCP | Website scraping and markdown extraction | Needs review | TODO |
+1. Read its security notes, license, open issues and recent release history.
+2. Grant the smallest possible filesystem, repository, API and cloud permissions.
+3. Use short-lived or narrowly scoped tokens; never commit secrets to a repository.
+4. Prefer read-only access until write operations are genuinely required.
+5. Run third-party servers in an isolated account, container or sandbox when practical.
+6. Review every tool capable of deleting data, sending messages, executing commands or changing infrastructure.
 
-## 🤝 Communication
+## Inclusion policy
 
-| MCP Server | Description | Status | Links |
-| --- | --- | --- | --- |
-| Slack MCP | Messaging and collaboration | Needs review | TODO |
-| Gmail MCP | Email workflows | Needs review | TODO |
-| Discord MCP | Community management | Needs review | TODO |
-| Microsoft Teams MCP | Enterprise communication | Needs review | TODO |
+A project may be added when it has:
 
-## ⚙ Productivity & Automation
+- a public, reachable source or official documentation link;
+- a clear MCP implementation and usage instructions;
+- an identifiable maintainer and license;
+- no unresolved placeholder or review marker in the catalog;
+- a truthful status label: Official, Reference, Community or Demo.
 
-| MCP Server | Description | Status | Links |
-| --- | --- | --- | --- |
-| Puppeteer MCP | Browser automation and screenshots; needs active replacement | Needs review | [Archived reference](https://github.com/modelcontextprotocol/servers-archived/tree/main/src/puppeteer) |
-| Web Browser MCP | Browser-based web exploration and automation | Needs review | TODO |
-| Firecrawl MCP | Website scraping and markdown extraction | Needs review | TODO |
-
-## 📚 Knowledge Management
-
-| MCP Server | Description | Status | Links |
-| --- | --- | --- | --- |
-| Notion MCP | Notes, docs, and workspace knowledge | Needs review | [GitHub](https://github.com/makenotion/notion-mcp-server) |
-| Obsidian MCP | Access markdown vaults | Needs review | TODO |
-| Memory MCP | Persistent knowledge graph | Needs review | [GitHub](https://github.com/modelcontextprotocol/servers/tree/main/src/memory) |
-| Google Drive MCP | Cloud document access | Needs review | TODO |
-
-## ☁ Cloud & Infrastructure
-
-| MCP Server | Description | Status | Links |
-| --- | --- | --- | --- |
-| AWS KB Retrieval MCP | AWS Bedrock Knowledge Bases | Needs review | TODO |
-| Docker MCP | Container infrastructure | Needs review | TODO |
-| Kubernetes MCP | Kubernetes cluster management | Needs review | TODO |
-| Cloudflare MCP | DNS and infrastructure management | Needs review | TODO |
-
-## 🌍 Maps & Location
-
-| MCP Server | Description | Status | Links |
-| --- | --- | --- | --- |
-| Google Maps MCP | Maps and geolocation services | Needs review | TODO |
-
-## 🏠 Smart Home & IoT
-
-| MCP Server | Description | Status | Links |
-| --- | --- | --- | --- |
-| Home Assistant MCP | Smart home automation and device control | Needs review | TODO |
-
-## 🎥 Media
-
-| MCP Server | Description | Status | Links |
-| --- | --- | --- | --- |
-| YouTube Transcript MCP | Retrieve video transcripts | Needs review | TODO |
-| Browser Screenshot MCP | Capture webpage screenshots | Needs review | TODO |
-
-## 🚀 AI & LLM
-
-| MCP Server | Description | Status | Links |
-| --- | --- | --- | --- |
-| MCP OpenAI Server | Use OpenAI models through MCP | Needs review | TODO |
-| Sequential Thinking MCP | Advanced reasoning workflows | Needs review | [GitHub](https://github.com/modelcontextprotocol/servers/tree/main/src/sequentialthinking) |
-| Memory MCP | Long-term context management | Needs review | [GitHub](https://github.com/modelcontextprotocol/servers/tree/main/src/memory) |
-
-## How to choose MCP servers
-
-- For code workflows, start with GitHub MCP, Git MCP, and Filesystem MCP.
-- For databases, choose PostgreSQL, MySQL, DuckDB, or the database server that matches your stack.
-- For search and research, use Brave Search, Kagi, or Jina AI depending on your search provider and API access.
-- For browser automation, use Puppeteer or browser tools when you need screenshots, page interaction, or web testing.
-- For knowledge workflows, use Notion, Obsidian, or Memory depending on where your notes and long-term context live.
-- Do not install every server at once. Pick the smallest set that matches the current task and review permissions carefully.
-
-## Verification criteria
-
-Before marking an MCP server as production-ready, check that:
-
-- repository is active
-- documentation exists
-- install instructions are available
-- useful for Claude Code / Cursor / AI coding agents
-- not archived
-- clear use case
-
-## Roadmap
-
-- Add verified installation examples
-- Add Claude Code config examples
-- Add Cursor config examples
-- Add testing notes
-- Add more production-ready MCP servers
-- Add comparison table
+Archived, missing or unverifiable projects are removed rather than linked to similarly named repositories.
 
 ## Contributing
 
-Contributions are welcome. See [CONTRIBUTING.md](CONTRIBUTING.md) for the format and quality rules.
+Contributions are welcome. Open an [issue](https://github.com/KostZen/Production-Ready-MCP-Servers-for-Claude-Code/issues) or a [pull request](https://github.com/KostZen/Production-Ready-MCP-Servers-for-Claude-Code/pulls) and include:
 
-If you know an MCP server that should be included, open a pull request or issue with links, category, install notes, and a short explanation of why it is useful.
+- the canonical repository or documentation URL;
+- maintainer/owner information;
+- license;
+- supported transport and authentication method;
+- a short security note.
 
 ## License
 
-MIT is recommended for this catalog, but a LICENSE file has not been added yet.
+[MIT](LICENSE)
