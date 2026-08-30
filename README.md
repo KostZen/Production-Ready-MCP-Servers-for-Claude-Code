@@ -29,6 +29,7 @@ A curated, link-checked collection of useful Model Context Protocol servers for 
 | Git | Read, search and manipulate Git repositories | Reference | [modelcontextprotocol/servers](https://github.com/modelcontextprotocol/servers/tree/main/src/git) |
 | Docker MCP Gateway | Run and manage MCP servers through Docker | Official | [docker/mcp-gateway](https://github.com/docker/mcp-gateway) |
 | Playwright MCP | Browser automation using Playwright | Official | [microsoft/playwright-mcp](https://github.com/microsoft/playwright-mcp) |
+| Agent QA | Natural-language web and mobile regression tests with retained execution evidence | Needs review | [vostride/agent-qa](https://github.com/vostride/agent-qa) |
 | Firecrawl MCP | Search, crawl and extract web content | Official | [mendableai/firecrawl-mcp-server](https://github.com/mendableai/firecrawl-mcp-server) |
 | OpenAI Deep Research sample | Example MCP server compatible with Deep Research | Demo | [openai/sample-deep-research-mcp](https://github.com/openai/sample-deep-research-mcp) |
 
