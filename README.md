@@ -42,6 +42,7 @@ A curated, link-checked collection of useful Model Context Protocol servers for 
 | Tavily MCP | Search, extract, map and crawl | Official | [tavily-ai/tavily-mcp](https://github.com/tavily-ai/tavily-mcp) |
 | SearXNG MCP | Private metasearch through a SearXNG instance | Community | [ihor-sokoliuk/mcp-searxng](https://github.com/ihor-sokoliuk/mcp-searxng) |
 | Fetch | Fetch and convert web content for model use | Reference | [modelcontextprotocol/servers](https://github.com/modelcontextprotocol/servers/tree/main/src/fetch) |
+| Excession Labs CVE intelligence | CVE search, source software/version evidence, KEV, dated EPSS, collection health and hosted changes; six read-only tools over Streamable HTTP, no account or API key | Official | [Official documentation](https://excessionlabs.ai/cve-intelligence/) |
 
 ## Databases and data platforms
 
